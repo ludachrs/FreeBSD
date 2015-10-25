@@ -1,0 +1,170 @@
+#wrapper{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 900px;
+	height: 750px;
+	background-color: white;
+	font-family: sans-serif;
+}
+
+#header{
+	position: absolute;
+	height: 75px;
+	width: 900px;
+	left: 0px;
+	top: 0px;
+	color: #8B0000;
+}
+p.text {
+	position: absolute;
+	font-family: sans-serif;
+	font-weight: 900;
+	left: 650px;
+	top: 1px;
+	color: white;
+	font-size: .5em;
+}
+p.text a {
+	color: yellow;
+}
+p.search {
+	position: absolute;
+	font-size: .5em;
+	font-weight: 500;
+	left: 692px;
+	top: 12px;
+	color: white;
+}
+p.search label {
+	position: relative;
+	top: 4px;
+	left: 2px;
+	border: thin solid white;
+	padding: 2px;
+}
+input#mysearch2 {
+	position: relative;
+	top: 4px;
+	font-size: .5em;
+}
+#menubar {
+	position: absolute;
+	width: 900px;
+	height: 25px;
+	left: 0px;
+	top: 75px;
+	background-color: #DCDCDC;
+}
+p.menu {
+	position: relative;
+	display: inline-block;
+	color: #4f5e6e;
+	top: -5px;
+	left: 10px;
+	height: 25px;
+	padding-left: 17px;
+	font-size: .60em;
+	font-weight: 700;
+}
+
+#sideBar{
+	position: absolute;
+	height: 225px;
+	width: 150px;
+	left: 20px;
+	top: 120px;
+	background-color: #DCDCDC;	
+	}
+ul.sideBarList {
+	position: relative;
+	top: -10px;
+	left: -30px;
+	right: 0;
+	color: #8B0000;
+	font-size: .70em;
+	list-style: none;
+}
+ul a {
+		color: #8B0000;
+}
+ul.sideBarList li {
+	list-style-position: outside;
+	list-style-position: inside;
+    padding: 8px 0 0 10px;
+    text-indent: -10px;
+}
+ul.sideBarList li:before {
+	content: "\00BB \0020";
+}
+
+hr {
+	border-bottom-width: 1px;
+	border-color: black;
+}
+
+#content{
+	position: absolute;
+	height: 800px;
+	width: 600px;
+	left: 190px;
+	top: 110px;
+}
+body p {
+		font-size: .75em;
+}
+body p a {
+	color: #8B0000;
+}
+h2 {
+	color: #8B0000;
+	font-size: 1em;
+}
+h3 {
+	color: #8B0000;
+	font-size: .8em;
+}
+ul.toc {
+	color: #8B0000;
+	font-size: 1em;
+	list-style: none;
+}
+ul.toc li {
+	list-style-position: outside;
+}
+ul.toc li span {
+	position: relative;
+	color: black;
+	top: 4px;
+	font-size: .75em;
+}
+ul.toc li:before{
+	content: '\2022';
+	color: black;
+	padding-right: 10px;
+	position: relative;
+	top: 5px;
+}
+ul.dates {
+	font-size: .75em;
+	margin-right: 20px;
+}
+ol {
+	position: relative;
+	left: -15px;
+	counter-reset: item;
+	font-size: .75em;
+	
+}
+ol li { 
+	display: block; 
+	}
+ol li a{ 
+	color: #8B0000; 
+	}
+ol li:before {
+    content: counter(item) ". ";
+    counter-increment: item;
+    color: black;
+    padding-right: 5px;
+        }
